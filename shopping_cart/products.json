@@ -1,0 +1,44 @@
+{
+	"products":[
+		{
+			"id":0,
+			"name": "Yellow Yeezy Boost 350",
+			"price": 800,
+			"oldprice": 1000,
+			"img": "0.jpeg",
+			"desc": "yeezy boost 350 yellow variation",
+			"rating":3,
+			"sku": "21457835"
+		},
+		{
+			"id":1,
+			"name": "Wrangler Waterproof Black Denim Jacket",
+			"price": 1000,
+			"oldprice": 1250,
+			"img": "1.jpeg",
+			"desc": "jacket for men",
+			"rating":5,
+			"sku": "21457836"
+		},
+		{
+			"id":2,
+			"name": "Carhartt Canvas Coach Mens Jacket",
+			"price": 750,
+			"oldprice": 1050,
+			"img": "2.jpeg",
+			"desc": "comes in brown and black",
+			"rating":2,
+			"sku": "21457837"
+		},
+		{
+			"id":3,
+			"name": "Black Cafe Racer Leather Jacket",
+			"price": 950,
+			"oldprice": 1350,
+			"img": "3.jpeg",
+			"desc": "cool leather jacket for men",
+			"rating":4,
+			"sku": "21457838"
+		}
+	]
+}

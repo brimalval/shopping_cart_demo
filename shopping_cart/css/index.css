@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+}
+
+.hidden{
+	display: none;
+}
+
+.lock{
+	overflow: hidden;
+}
+
+.homepage-body{
+	position: relative;
+	margin-top: 40px;
+}
+
+.sidebar{
+	position: absolute;
+	left: 5%;
+	height: 100px;
+	top: 20px;
+	width: 24.5%;
+	max-width: 350px;
+}
+
+.sidebar ul{
+	list-style: none;
+	padding: 0;
+}
+
+.sidebar li{
+	border: 1px solid #909090;
+	line-height: 40px;
+	padding: 10px;
+}
+
+.sidebar p{
+	font-weight: 700;
+}
+
+.sidebar h1{
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+#notification{
+	z-index: 995;
+	position: absolute;
+	right: 0;
+	top: 20px;
+	margin-right: 5%;
+	background-color: lightgreen;
+	line-height: 40px;
+	padding-left: 15px;
+	max-width: 65%;
+	width: 65%;
+}
+
+.notification-active{
+	display: inline-block;
+}
+
+.notification-active + .product-list{
+	padding-top: 50px;
+}
+
+.product-list{
+	position: absolute;
+	max-width: 65%;
+	right: 0;
+	margin-right: 5%;
+	padding-left: 25px;
+	padding-top: 0px;
+	top: 20px;
+	text-align: left;
+}
+
+.product{
+	border: 1px solid #909090;
+	position: relative;
+	background-color: white;
+	min-width: 250px;
+	max-width: 250px;
+	min-height: 500px;
+	max-height: 250px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+.product-details{
+	position: relative;
+	padding: 10px;
+	height: 210px;
+	width: 100%;
+	word-wrap: break-word;
+}
+
+.product-details a{
+	text-decoration: none;
+}
+
+.product-name{
+	font-weight: 600;
+	font-size: 22px;
+	color: #0075ab;
+	margin-bottom: 15px;
+	max-height: 50px;
+}
+
+.product-name:hover{
+	transition: 150ms ease-in-out;
+	color: #004069;
+}
+
+.product-price{
+	font-weight: 500;
+}
+
+.product-cart-add-div{
+	background-color: #aaa;
+	line-height: 63px;
+	margin: 0px;
+	text-align: center;
+}
+
+.cart-add{
+	background-color: black;
+	color: white;
+	line-height: 40px;
+	width: calc(100% - 40px);
+	margin: 5px;
+	border: 0;
+}
+
+.cart-add:hover{
+	transition-duration: 150ms;
+	background-color: #424242;
+}
+
+.product-img{
+	width: 100%;
+	height: 225px;
+}
+
+.product-img img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
